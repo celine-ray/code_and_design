@@ -26,8 +26,8 @@ function draw() {
 	stroke(5);
 	strokeWeight(4);
 	fill(0, 0, 250, 100);
-	ellipse(400, rotwert, rotwert, rotwert);
-	// ellipse(400, 400, durchmesser, durchmesser);
+	//ellipse(400, rotwert, rotwert, rotwert);
+	 ellipse(400, 400, durchmesser, durchmesser);
 
 	// 11 = 10 + 1
 	// 12 = 11 + 1
@@ -35,6 +35,6 @@ function draw() {
 
 }
 
-function mouseClicked() {
-	rotwert = rotwert + 4;
-}
+//function mouseClicked() {
+//	rotwert = rotwert + 4;
+//}
